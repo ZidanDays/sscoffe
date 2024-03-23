@@ -1,0 +1,6 @@
+.table td img,
+.jsgrid .jsgrid-table td img {
+  width: 150px !important;
+  height: 125px !important;
+  border-radius: 1px !important;
+}

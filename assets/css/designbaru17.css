@@ -1,0 +1,211 @@
+:root {
+  --main-color: #5c2c06;
+  --second-color: #ffb524;
+  --font-color: #262223;
+  --hover-color: #5c2c06;
+}
+
+.text-light a {
+  color: white !important;
+}
+
+.border-primary {
+  border-color: white !important;
+}
+
+.border-bottom {
+  color: white !important;
+}
+
+.judul {
+  color: white !important;
+  text-shadow: 2px 2px saddlebrown !important;
+}
+
+.footer-logo1 {
+  color: white !important;
+}
+
+.footer-logo2 {
+  color: white !important;
+}
+
+.icon-alamat {
+  color: orange !important;
+}
+.icon-email {
+  color: orange !important;
+}
+
+.pagination a.active {
+  background-color: orange !important;
+}
+.pagination a:hover {
+  background-color: orange !important;
+  color: white !important;
+}
+
+.breadcrumb-item a {
+  color: orange !important;
+}
+
+.bintang {
+  color: gold !important;
+}
+
+.reting:hover {
+  color: orange !important;
+  transition: 0.3s !important;
+}
+
+.btn-primary-after {
+  background-color: var(--main-color) !important;
+  padding: 10px 20px !important ;
+}
+
+.btn-login {
+  color: white !important;
+  border-radius: 30px !important;
+  font-family: sans-serif;
+  border-color: var(--main-color);
+}
+
+.btn-login:hover {
+  color: black !important;
+  border-color: orange !important;
+}
+
+.judul-login {
+  text-align: center;
+  margin-top: -20px !important;
+}
+
+.btn-login1 {
+  border-color: var(--main-color) !important;
+  margin-top: 1.5rem !important;
+}
+.btn-login1:hover {
+  color: black !important;
+  border-color: orange !important;
+}
+
+.body_login {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  margin-top: 1.5rem !important;
+}
+.form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-mata {
+  color: black !important;
+  border-color: rgb(67, 66, 66) !important;
+}
+.btn-mata:hover {
+  color: black !important;
+  border-color: black;
+  background-color: white !important;
+}
+.btn-mata:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* ikon login */
+.rotate {
+  transition: transform 0.3s ease; /* Menetapkan transisi untuk transformasi */
+}
+.rotate:focus {
+  outline: none !important; /* Menghapus border saat diklik */
+  box-shadow: none !important;
+}
+
+.rotate:hover {
+  transform: rotate(140deg); /* Mengubah sudut rotasi saat tombol dihover */
+}
+
+.modal-header {
+  border-bottom: none !important;
+}
+
+.logo_login {
+  width: 13%;
+  margin-bottom: 20px;
+}
+
+/* icon burger */
+
+/* Menambahkan transisi untuk ikon */
+.navbar-toggler .fa {
+  transition: transform 0.5s ease;
+}
+
+/* Mengubah ikon menjadi silang saat tombol diklik */
+.navbar-toggler.close .fa-bars {
+  transform: rotate(45deg);
+}
+
+/* Menambahkan rotasi untuk ikon close ketika tombol close diklik */
+.navbar-toggler.close .fa-times {
+  transform: rotate(320deg); /* Atur derajat rotasi sesuai kebutuhan */
+}
+
+/* Menghilangkan border ketika tombol diklik */
+.navbar-toggler:focus {
+  outline: none !important; /* Menghapus border saat diklik */
+  box-shadow: none !important;
+}
+
+/* daftar menu*/
+.nama_menu a:hover {
+  color: orange !important;
+  transition: 0.3s !important;
+}
+
+/* btn add to cart */
+.btn-addto {
+  background-color: var(--main-color) !important;
+  color: white !important;
+  transition: 0.5s !important;
+  border-color: var(--main-color) !important;
+}
+
+/* username */
+.username {
+  color: black !important;
+  font-family: serif;
+  font-size: 23px;
+  margin-left: 4px;
+}
+.btn-user:hover .username {
+  color: orange !important;
+  transition: 0.5s !important;
+}
+.btn-user {
+  background-color: white !important;
+  border: none !important;
+}
+
+.username1 {
+  color: black !important;
+  font-family: serif;
+  font-size: 23px;
+  margin-left: 14px;
+}
+.user-avatar1 {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+/* cart */
+.table thead {
+  background-color: #8b4513; /* Warna coklat */
+  color: white;
+}
